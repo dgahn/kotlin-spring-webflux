@@ -12,7 +12,7 @@ import me.dgahn.R2bcConfiguration
 import org.springframework.test.context.ContextConfiguration
 
 @ContextConfiguration(classes = [EmployeeCrudRepository::class, R2bcConfiguration::class])
-class EmployeeRepositoryTest(employeeRepo: EmployeeCrudRepository) : FunSpec({
+class EmployeeCrudRepositoryTest(employeeRepo: EmployeeCrudRepository) : FunSpec({
 
     extension(SpringExtension)
 
